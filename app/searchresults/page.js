@@ -10,9 +10,10 @@ export default async function Page({ searchParams }) {
 
   return (
     <main className="min-h-screen p-8">
-      <h1 className="text-3xl font-bold mb-6 text-center">
-        Search Results for "{query}" ({data.recipes.length})
-      </h1>
+<h1 className="text-3xl font-bold mb-6 text-center">
+  Search Results for &quot;{query}&quot; ({data.recipes.length})
+</h1>
+
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {data.recipes.map((rec) => (

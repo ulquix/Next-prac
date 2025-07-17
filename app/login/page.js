@@ -63,7 +63,7 @@ export default function LoginPage() {
             <h1 className="text-3xl font-bold mb-2 bg-gradient-to-r from-green-400 to-emerald-400 bg-clip-text text-transparent">
               Welcome Back!
             </h1>
-            <p className="text-slate-400 text-sm">You're successfully signed in</p>
+            <p className="text-slate-400 text-sm">You&apos;re successfully signed in</p>
           </div>
 
           {/* User Info */}
