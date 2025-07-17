@@ -7,10 +7,13 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
-  },"rules": {
-  "react/no-unescaped-entities": "off"
-}
-,
+  },
+  "eslintConfig": {
+    "extends": "next",
+    "rules": {
+      "react/no-unescaped-entities": "off"
+    }
+  },
   "dependencies": {
     "framer-motion": "^12.23.6",
     "jsonwebtoken": "^9.0.2",
