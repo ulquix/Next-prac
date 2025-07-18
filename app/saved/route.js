@@ -43,6 +43,7 @@ export async function DELETE(request) {
 }
 export async function GET(request){
   const token = await getToken({req:request})
+  await connectToDB()
   const posts = await Users.findOne({email:token.email}).select("saved")
   const arr = posts.saved
   return NextResponse.json({message:JSON.stringify(arr)})
