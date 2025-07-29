@@ -12,8 +12,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Recipie Wala",
-  description: "Welcome to recipie wala",
+  title: "Recipie Finder",
+  description: "Welcome to recipie Finder",
 };
 
 export default function RootLayout({ children }) {

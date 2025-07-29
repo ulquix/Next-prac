@@ -128,7 +128,7 @@ export default function Home() {
           className="text-center mb-16"
         >
           <h1 className="text-6xl lg:text-8xl font-bold mb-6 bg-gradient-to-r from-blue-400 via-purple-400 to-emerald-400 bg-clip-text text-transparent">
-            Recipe Wala
+            Recipe Finder
           </h1>
           <motion.p
             initial={{ opacity: 0 }}
