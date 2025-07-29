@@ -159,6 +159,7 @@ export default function Page() {
                             alt={rec.name}
                             width={400}
                             height={250}
+                            loading='lazy'
                             className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300"
                           />
                           <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
@@ -208,6 +209,7 @@ export default function Page() {
                           alt={rec.name}
                           width={120}
                           height={80}
+                          loading='lazy'
                           className="w-20 h-20 object-cover rounded-xl group-hover:scale-105 transition-transform duration-300"
                         />
                         <div className="flex-1">
